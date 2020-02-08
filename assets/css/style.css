@@ -114,6 +114,10 @@ section .section-text {
 
 /*-----------------------------------------------Services Pruning--------------------------*/
 
+.mybeech{
+    transform: rotate(90);
+}
+
 #pruningimages {
 
 }
