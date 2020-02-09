@@ -1,48 +1,62 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:100,200,300,400,500,600,700;|Ubuntu:100,200,300,400,500,600,700;&display=swap');
 
+html {
+    height: 100%;
+    margin: 0;
+}
 body {
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #BCEE68;
 }
-
-.bg-img {
-    background: url("/assets/images/tree-surgery.jpeg") no-repeat center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-}   
-
-.container {
-    display: flex;
-}
-/*--------------------------NavBar------------------------------*/
 .navbar {
-    background-color: transparent;
+    background: none;
+    border-color: transparent;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.navbar {
+    background: transparent;
+    color: transparent;
     font-weight: 500;
     font-family: 'Ubuntu';
     font-size: 20px;
     letter-spacing: 2px;
     word-spacing: 20px;
 }
-
-.navbar {
-
+.navbar-nav {
+    float: right;
+    background-color: transparent;
 }
-/*.nav-bg-color {
-    background-color: ;
-} */
 
-/*section .resize { 
-    width: 50px;
-    height: auto;
-} */
+.navbar-toggler {
+    color: black;
+}
+
+.navbar-brand {
+    height: 40px;
+}
+/*----------Bg Image----------*/
+
+.bg-img {
+    background-attachment: fixed;
+    background-image: url('/assets/images/tree-oak-nv.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+
+
 /*----------------------------------- Main Page Sections------------------------- */
 
-section .sectiontext {
+.sectiontext {
     margin-top: 20px;
-    padding: 10px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
     font-size: 20px;
     letter-spacing: 2px;
     text-align: center;
@@ -56,7 +70,6 @@ section h2 {
     text-align: center;
     text-transform: uppercase;
     text-decoration: underline;
-    display: block;
 }
  
 /* -------------------- ---------------------------------------------foooter     */
@@ -66,20 +79,21 @@ footer {
     margin-top: 10px;
     padding-top: 10px;
     font-family: 'Rubik';
-    overflow: hidden;
 }
 
 footer h6 {
     letter-spacing: 1px ;
-    text-transform: uppercase;
+    text-transform: uppercase, underline;
 }
 
-footer ul li {
+footer, p, li {
+    text-align: center;
+}
+footer li {
     list-style: none;
 }
 
 footer .fa {
-    text-align:center;
     letter-spacing: 20px;
     font-size: 2em;
     color: #1874CD;
@@ -98,14 +112,17 @@ section .section-text {
 
 /*-------------------- ---------------------------About --------------------- */
 
+.flex-container {
+    display: flex;
+    height:100%;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
 #about-main-slideshow {
     margin-top: 20px;
-    margin-bottom: 40px;
-    height: 540px;
-    width: 800px;
-    left: 125px;
     border: 5px solid yellowgreen;
-    align-content: center;
+    justify-content: center;
 }
 
 #aboutimages {
@@ -114,9 +131,6 @@ section .section-text {
 
 /*-----------------------------------------------Services Pruning--------------------------*/
 
-.mybeech{
-    transform: rotate(90);
-}
 
 #pruningimages {
 

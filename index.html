@@ -17,54 +17,55 @@
 
 <body>
 	<!------------- ---------------------------------------NavBar BS --------------------------->
-<header>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">TreeSolutions</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="about.html">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="services.html">Services</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="contact.html">Contact</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-</header>
-
-
-                <div class="bg-img"></div>
+    <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+                <a class="navbar-brand" href="/assets/images/logoedit.png"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        
+        <div class="container bg-img"></div>
+    </header>
 
 	<!------------- Head Logos--------------------------->
 
-<!--	<section>
-        <div class="container">
-            <div class="row logos">
-                <div class="col-12 list-inline">
-                    <div class="col">
-                        <img class="resize" src="assets/logos/AAlogo.jpg" alt="cert logo"/>
+    
+
+<!--<section>
+        <div class="container companylogos">
+            <div class="row">
+                <div class="col-2 list-inline">
+                    <div class="col-2">
+                        <img src="assets/logos/AAlogo.jpg" alt="cert logo"/>
                     </div>
-                    <div class="col">
-                        <img class="resize" src="assets/logos/nptc-workforce.jpg" alt="cert logo"/>
+                    <div class="col-2">
+                        <img src="assets/logos/nptc-workforce.jpg" alt="cert logo"/>
                     </div>
-                    <div class="col">
-                        <img class="resize" src="assets/logos/master-arborist.png" alt="cert logo"/>
+                    <div class="col-2">
+                        <img src="assets/logos/master-arborist.png" alt="cert logo"/>
                     </div>
-                    <div class="col">
-                        <img class="resize" src="assets/logos/city-and-guilds.jpg" alt="cert logo"/>
+                    <div class="col-2">
+                        <img src="assets/logos/city-and-guilds.jpg" alt="cert logo"/>
                     </div>
-                    <div class="col">
-                        <img class="resize" src="assets/logos/mem-cer-isa.png" alt="cert logo"/>
+                    <div class="col-2">
+                        <img src="assets/logos/mem-cer-isa.png" alt="cert logo"/>
                     </div>
                 </div>
             </div>
@@ -76,12 +77,12 @@
 	<section> 
 		<div class="container">
 			<div class="row sectiontext">
-				<div class="col-12 col-md-6">
+				<div class="col-md-6">
 
 					<h2> Who are we? </h2>
 					<p>
 						Certified Arborists, dedicated to the highest quality of service and the advancement of <a
-							href="https://en.wikipedia.org/wiki/Arboriculture"
+							href="https://en.wikipedia.org/wiki/Arboriculture" target="_blank"
 							alt="Arboriculture Wikipedia">Arboriculture.</a>
 
 						We are a long standing Professional company who have been opperating
@@ -95,7 +96,7 @@
 					</p>
 				</div>
 				<!-------------------------------Bootstrap carousel-->
-				<div class="col-12 col-md-6 mt-4">
+				<div class="col-md-6 col-xs-12 mt-4">
 					<div id="treeimages" class="carousel slide" data-interval="10000" data-ride="carousel">
 						
 						<div class="carousel-inner">
@@ -124,7 +125,7 @@
     <section>
 		<div class="container">
 			<div class="row section-text">
-				<div class="col-12 col-md-6 mt-4">
+				<div class="col-md-6 mt-4">
 				    <div id="whatwedo" class="carousel slide" data-interval="10000" data-ride="carousel">
 						<div class="carousel-inner">
 							<div class="carousel-item active">
@@ -143,7 +144,7 @@
 					</div>
 				</div>
 
-				<div class="col-12 col-md-6">
+				<div class="col-md-6">
 
                             <h2>What do we do?</h2>
                             <p>
@@ -172,7 +173,7 @@
         <div class="container">
 			<div class="row">
 				<div class="col">
-					<h6>Address:</h6>
+					<h6 class="address underline">Address:</h6>
 					<ul>
 						<li>Town Gate </li>
                         <li>Woodside Rd.</li> 
@@ -181,7 +182,7 @@
 					</ul>
 				</div>
 				<div class="col">
-					<h6>Call or Email</h6>
+					<h6 class="contact">Call or Email</h6>
 					<ul>
 						<li>Donal@treesolutions.ie</li> 
                         <li>087 4103088</li>
@@ -189,7 +190,7 @@
 					</ul>
 				</div>
 				<div class="col">
-					<h6>Social Media</h6>
+					<h6 class="social">Social Media</h6>
                     <p>
                         Checkout our social media, it would be awesome if you let us know what you think!
                     </p>
