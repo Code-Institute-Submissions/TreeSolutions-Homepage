@@ -2,7 +2,6 @@
 
 html {
     height: 100%;
-    overflow: none
 }
 body {
     font-family: 'Ubuntu', sans-serif;
@@ -11,26 +10,28 @@ body {
     padding-top: 
 }
 
-
+#navbarNav {
+    
+}
 .navbar {
     background: url("/assets/images/logoedit2.png") no-repeat;
     letter-spacing: 7px;
     text-transform: uppercase;
-    height: 8em;
+    height: 7em;
     font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
-    position: absolute
+    font-weight: 700; 
+    margin-bottom: 20em;
 }
-
-button .navbar-toggle .collapsed {
-    align-content: right;
-    position: absolute;
+.navbar-nav {
+    text-align: right;
+}
+.button {
+    
 }
 
 /*------Bg Image----------*/
 
 header {
-    background-attachment: relative;
     background-image: url('/assets/images/tree-oak-nv.jpeg');
     background-position: center;
     background-size: cover;
