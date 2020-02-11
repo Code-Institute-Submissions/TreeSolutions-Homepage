@@ -2,9 +2,10 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -22,13 +23,12 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html"><img src="/assets/images/logoedit2.png"/></a>
-            <!--</div>       To un-nest the menu, moving it naturally to the left in lg screens, but when parent of elements 
-                                pushes toggler out on breakpoint-->
 
-                            <button class="navbar-toggler button" type="button" data-toggle="collapse" 
+                            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" 
                                     data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
                                     aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+                                <span class="navbar-toggler-icon">
+                                        <i class="fa fa-tree" style="color:#fff;font-size:30px"></i></span>
                             </button>
 
                         <div class="collapse navbar-collapse" id="navbarNav">
@@ -81,15 +81,14 @@
     </section>    need to resize images  -->
 
 	<!------------- Section WAW ----------------------->
-
-	<section>
-            <h1 class="container welcome text-center">Welcome to TreeSolutions</h1>
-
+<article>
+            <!---<h1 class="welcome text-center">Welcome to TreeSolutions</h1> -->
 
 
+    <section>
 		<div class="container">
 			<div class="row sectiontext">
-				<div class="col-md-6 col-sm-6">
+				<div class="col-md-6">
 
 					<h2> Who are we? </h2>
 					<p>
@@ -108,7 +107,7 @@
 					</p>
 				</div>
 				<!-------------------------------Bootstrap carousel-->
-				<div class="col-md-6 col-sm-6 mt-4">
+				<div class="col-md-6 mt-4">
 					<div id="treeimages" class="carousel slide" data-interval="10000" data-ride="carousel">
 
 						<div class="carousel-inner">
@@ -133,14 +132,13 @@
             </div>
         </div>
     </section>
-
 					
                     		<!-----------------------------SecPart2----------------------------------------------------------->
             <section>
                 <div class="container">
                     <div class="row section-text">
-                        <div class="col-md-6 col-sm-6 mt-4">
-                            <div id="whatwedo" class="carousel slide" data-interval="10000" data-ride="carousel">
+                        <div class="col-md-6 mt-4">
+                            <div id="treeimages" class="carousel slide" data-interval="10000" data-ride="carousel">
                                             
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
@@ -189,6 +187,7 @@
                     </div>
 				</div>                                
 	        </section>
+        </article>
 	<!-----------------------------Footer------------------------------------------------------------->
 	<footer>
 		<div class="container">
