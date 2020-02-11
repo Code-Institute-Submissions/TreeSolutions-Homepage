@@ -78,6 +78,7 @@ article {
     background-size: cover;
     padding-top: 2em;
     background-position: 50% 50%;
+    padding-bottom: 100px;
 }
 .opening-text {
     font-family: 'Ubuntu', sans-serif;
@@ -96,43 +97,57 @@ p .pro {
 .landingpage-text {
     font-size: 1rem;
     letter-spacing: 2px;
-}
-
-section h2 {
     font-family: 'Rubik';
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: 20px;
     text-align: center;
     font-weight: 400;
 }
+.section2image {
+    width: 450px;
+    height: 400px;
+    float: right;
 
-.treeimages {
-    width: 100px;
-    height: 100px;
+}
+
+.img-fluid {
     border-radius: 25px;
 } 
  
 /* -------------------- ---------------------------------------------foooter     */
 
 footer {
-    background-color: #BCEE68;
+    background-color:/* #BCEE68*/#383838;
     padding-top: 30px;
+
+    font-size: 1rem;
     font-family: 'Rubik', sans-serif;
-    color: black;
+    color: #fff;
     text-align: center;
+
+    height: 15rem;
+}
+.pre-footer {
+    color: #fff;
+    letter-spacing: 4px;       /*           icons to fix     */
 }
 
-footer li {
-    /*align-content: center; */
-    list-style: none;
-    padding-left: 0;
-}
-
-footer .fa {
-    display: inline-block;
-    letter-spacing: 20px;
+.pre-footer .fa-facebook-square {
+    color: #1E90FF;
     font-size: 2em;
-    color: #1874CD;
+}
+.pre-footer .fa-envelope-square {
+    color: #FF0000;
+    font-size: 2em;
+}
+.pre-footer .fa-phone-square-alt {
+    color: #BCEE68;
+    font-size: 2em;
+}
+
+footer .hori-line {
+    background-color: #fff;
+    font-size: 5px; /*        */
 }
 /*-------------------------------------  Text all pages  --------------------- */
 
