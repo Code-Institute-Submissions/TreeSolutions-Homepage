@@ -14,25 +14,20 @@ body {
     
 }
 .navbar {
-    background: url("/assets/images/logoedit2.png") no-repeat;
+    font-size: 1.5em;
     letter-spacing: 7px;
     text-transform: uppercase;
-    height: 7em;
+    height: auto; 
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700; 
-    margin-bottom: 20em;
 }
-.navbar-nav {
-    text-align: right;
-}
-.button {
-    
-}
+
+
 
 /*------Bg Image----------*/
 
 header {
-    background-image: url('/assets/images/tree-oak-nv.jpeg');
+    background-image: url('/assets/images/tree-oak-nv.jpeg') fixed;
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -50,7 +45,7 @@ header {
     font-size: 20px;
     letter-spacing: 2px;
     text-align: center;
-    border: 3px solid yellowgreen;
+    border: 3px solid #0a8c0d;
 }
 
 section h2 {
@@ -65,7 +60,7 @@ section h2 {
 /* -------------------- ---------------------------------------------foooter     */
 
 footer {
-    background-color: #BCEE68;
+    background-color: #0a8c0d;
     margin-top: 10px;
     padding-top: 10px;
     font-family: 'Rubik';
@@ -99,20 +94,19 @@ section .section-text {
     font-size: 20px;
     letter-spacing: 2px;
     text-align: center;
-    border: 3px solid yellowgreen;
+    border: 3px solid #0a8c0d;
 }
 
 /*-------------------- ---------------------------About --------------------- */
 
 section .about-carousel {
-    margin-top: 100px;
+    margin-top: 5rem;
 }
 
 section #about-main-slideshow {
-    position: relative;
     width: 60%;
-    height: 60%;
-    border: 5px solid yellowgreen;
+    position: relative;
+    border: 10px solid #0a8c0d;
     justify-content: center;
 }
 
@@ -152,3 +146,23 @@ section #about-main-slideshow {
 }
 
 /*-----------------------------------------------Contact Form----------------------------------*/
+/*
+
+I've added this from BS Documentation as a style reference 
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+*/
