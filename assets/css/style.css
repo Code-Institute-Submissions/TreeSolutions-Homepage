@@ -37,16 +37,14 @@ body {
     background-size: 100% auto;
 }
 
-
 .custom-toggler .navbar-toggler {
-    border-color: 2px solid black;
+    border-color: 2px solid #0a8c0d;
 }
 .custom-toggler .navbar-toggler-icon {
     background-color: #0a8c0d;
+    background-size: 40px;
 }
-.navbar-pages {
 
-}
 
 
 /*-------------------------------------Bg Image----------*/
@@ -119,14 +117,16 @@ p .pro {
 footer {
     background-color:/* #BCEE68*/#383838;
     padding-top: 30px;
+    margin-bottom: 0;
 
     font-size: 1rem;
     font-family: 'Rubik', sans-serif;
     color: #fff;
     text-align: center;
 
-    height: 15rem;
+    /*height: 15rem;*/
 }
+
 .pre-footer {
     color: #fff;
     letter-spacing: 4px;       /*           icons to fix     */
@@ -168,10 +168,16 @@ section .about-carousel {
 
 section #about-main-slideshow {
     margin-top: 20px;
-    width: auto;
-    height: auto;
+    width: 80%;
+    height: 80%;
     position: relative;
     justify-content: center;
+}
+.background-image {
+    background: url("/assets/backgrounds/leaf-wrap1st.jpg")no-repeat;
+    background-size: cover;
+    padding-top: 2em;
+    background-position: 50% 50%;
 }
 
 #aboutimages {
