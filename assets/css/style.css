@@ -26,7 +26,10 @@ body {
 
 .navbar-nav li a {
     color: #fff; 
+    padding-bottom: 0;
+    overflow-y: none;
 }
+
 
 .navbar-nav a:hover{
     text-shadow: 2px 2px #1874CD;
@@ -67,6 +70,13 @@ header .bg-img{
     max-width: ;
     max-height: ;
     }
+ }
+
+ /*-----------------------------------Contact Form ------------------------- */
+
+ div .custom-modal {
+     padding: 40px;
+     width: 400px;
  }
 
 /*----------------------------------- Welcome ------------------------- */
@@ -173,16 +183,23 @@ section #about-main-slideshow {
     position: relative;
     justify-content: center;
 }
-.background-image {
+.background-image-about {
     background: url("/assets/backgrounds/leaf-wrap1st.jpg")no-repeat;
     background-size: cover;
     padding-top: 2em;
     background-position: 50% 50%;
 }
 
-#aboutimages {
+/*-----------------------------------------------Services Pruning--------------------------*/
 
+.background-image-services {
+    background: url("/assets/backgrounds/leaf-wrap-flip.jpg")no-repeat;
+    background-size: cover;
+    padding-top: 2em;
+    background-position: 50% 50%;
 }
+
+
 
 /*-----------------------------------------------Services Pruning--------------------------*/
 
