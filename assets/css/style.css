@@ -62,6 +62,7 @@ header .bg-img{
     width: 100%;
     padding-bottom: 62.5%;
     margin-bottom: 0;
+    border-bottom: 10px solid #383838
 }
 
 @media (max-width: 992px) {
@@ -106,8 +107,8 @@ p .pro {
     font-size: 1rem;
     letter-spacing: 2px;
     font-family: 'Rubik';
-    margin-top: 50px;
-    margin-bottom: 20px;
+    padding-top: 50px;
+    /*margin-bottom: 20px;   comment out just to see the difference */
     text-align: center;
     font-weight: 400;
 }
