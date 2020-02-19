@@ -24,9 +24,8 @@ body {
     padding-bottom: 0;
 }
 
-
 .navbar-nav a:hover{
-    text-shadow: 2px 2px #1874CD;
+    text-shadow: 5px 5px #1874CD;
 }
 
 .navbar-brand {   /* needs a @media */
@@ -43,19 +42,36 @@ body {
 
 
 
-/*-------------------------------------Bg Image----------*/
+/*-------------------------------------   Main Image ----------*/
 
-header .bg-img{
-    background: url('/assets/images/conifers.jpeg');
+.hero-image{
+    background: url('/assets/images/conifers.jpeg') center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative; 
     height: 50vh;
     width: 100%;
-    padding-bottom: 50%;
+    padding-bottom: 62.5%;
+    margin-bottom: 0;
     border-bottom: 10px solid #383838
 }
+
+.jumbotron .hero-text li {
+    font-family: 'Rubik', sans-serif;
+    font-size: 3em;
+    color: #fff;
+    list-style: none;
+    text-align: vertical;
+    letter-spacing: 3px;
+    line-height:80px;
+    background: rgba(0, 0, 0, 0.4)/*(204, 204, 204, 0.5)*/;
+}
+.jumbotron {
+    justify-content: center;
+    width: 50%;
+}
+
 
  /*-----------------------------------Contact Form ------------------------- */
 
@@ -75,13 +91,13 @@ article {
 }
 
 iframe {
-    width: 50vw;
-    height: 50vh;
+    width: 60vw;
+    height: 60vh;
     align-self: center;
     justify-items: center;
 }
 
-.opening-text {
+.welcome-text {
     font-family: 'Ubuntu', sans-serif;
     color: black;
     font-size: 1.3em;
@@ -164,7 +180,7 @@ section .section-text {
     text-align: center;
 }
 
-/*-------------------- ---------------------------About Carousel --------------------- */
+/*-------------------- ---------------------------About Page Carousel --------------------- */
 
 section .about-carousel {
     margin-top: 5rem;
@@ -229,7 +245,7 @@ section #about-main-slideshow {
 /*-----------------------------------------------Contact Form----------------------------------*/
 
 
-I've added this from BS Documentation as a style reference 
+/*   I've added this from BS Documentation as a style reference     */
 
 
 // Extra small devices (portrait phones, less than 576px)
