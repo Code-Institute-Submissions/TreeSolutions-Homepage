@@ -45,7 +45,7 @@ body {
 /*-------------------------------------   Main Image ----------*/
 
 .hero-image{
-    background: url('/assets/images/conifers.jpeg') center;
+    background: url('/assets/images/conifers_logos.jpeg') center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -65,10 +65,9 @@ body {
     text-align: vertical;
     letter-spacing: 3px;
     line-height:80px;
-    background: rgba(0, 0, 0, 0.4)/*(204, 204, 204, 0.5)*/;
+    background: rgba(0, 0, 0, 0.4);
 }
 .jumbotron {
-    justify-content: center;
     width: 50%;
 }
 
@@ -90,33 +89,44 @@ article {
     padding-bottom: 100px;
 }
 
-iframe {
-    width: 60vw;
-    height: 60vh;
-    align-self: center;
-    justify-items: center;
-}
-
 .welcome-text {
     font-family: 'Ubuntu', sans-serif;
     color: black;
     font-size: 1.3em;
     margin: 2em;
-    margin-bottom: 1em;
+    margin-bottom: 50px;
+}
+article .welcome {
+    margin: 30px;
 }
 
 p .pro {
     font-style: italic;
 }
 
+iframe {
+    width: 60vw;
+    height: 60vh;
+    align-self: center;
+    justify-items: center;
+    padding-bottom: 25px;
+}
 /*----------------------------------- Main Page Sections------------------------- */
 
-.landingpage-text {
+.section1 .who-text {
     font-size: 1rem;
     letter-spacing: 2px;
     font-family: 'Rubik';
-    padding-top: 50px;
-    /*margin-bottom: 20px;   comment out just to see the difference */
+    padding: 50px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.section2 .what-text{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-family: 'Rubik';
+    padding: 50px;
     text-align: center;
     font-weight: 400;
 }
@@ -125,7 +135,6 @@ p .pro {
     width: 450px;
     height: 400px;
     float: right;
-
 }
 
 .img-fluid {
@@ -149,20 +158,24 @@ footer {
 
 .pre-footer {
     color: #fff;
-    letter-spacing: 4px;       /*           icons to fix     */
+    letter-spacing: 4px;
 }
 
 .pre-footer .fa-facebook-square {
     color: #1E90FF;
-    font-size: 2em;
+    font-size: 2.5em;
+}
+.pre-footer .fa-instagram {
+    color: #fff;
+    font-size: 2.5em;
 }
 .pre-footer .fa-envelope-square {
     color: #FF0000;
-    font-size: 2em;
+    font-size: 2.5em;
 }
-.pre-footer .fa-phone-square-alt {
+.pre-footer .fa-phone {
     color: #BCEE68;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 footer .hori-line {
