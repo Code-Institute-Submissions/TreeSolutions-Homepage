@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:100,200,300,400,500,600,700;|Ubuntu:100,200,300,400,500,600,700;&display=swap');
 
+.foo {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
 html {
     height: 100%;
 }
@@ -57,14 +63,15 @@ body {
     border-bottom: 10px solid #383838
 }
 
-.jumbotron .hero-text li {
+/* .jumbotron .hero-text li { */
+.hero-text li {
     font-family: 'Rubik', sans-serif;
-    font-size: 3em;
+    font-size: 2rem;
     color: #fff;
     list-style: none;
     text-align: vertical;
     letter-spacing: 3px;
-    line-height:80px;
+    line-height:3rem;
     background: rgba(0, 0, 0, 0.4);
 }
 .jumbotron {
@@ -104,13 +111,13 @@ p .pro {
     font-style: italic;
 }
 
-iframe {
+/* iframe {
     width: 60vw;
     height: 60vh;
     align-self: center;
     justify-items: center;
     padding-bottom: 25px;
-}
+} */
 /*----------------------------------- Main Page Sections------------------------- */
 
 .section1 .who-text {
