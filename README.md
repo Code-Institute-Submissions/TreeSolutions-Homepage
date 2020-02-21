@@ -1,5 +1,9 @@
+<<<<<<< HEAD
     
     ##TreeSolutions Homepage
+=======
+    ##TreeSolutions Homepage 
+>>>>>>> 1929620d02cb7e3d439fe8707d4d00ae59ad223a
     <hr>
         
         <p> 
