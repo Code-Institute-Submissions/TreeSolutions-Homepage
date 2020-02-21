@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-	<!-- <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -53,28 +52,20 @@
         </div>
     </nav>
 
-    <div class="hero-image">
-
-        <div class="foo">
-        <!-- <div class="container"> -->
-            <!-- <div class="jumbotron bg-transparent"> -->
-                <!-- <div class="row"> -->
-                    <!-- <div class="col-md-12"> -->
-                        <ul class="hero-text"> <!-- 3. CSS Media query -->
-                            <li>Tree Assessments</li>
-                            <li>Tree Pruning</li>
-                            <li>Tree Planting</li>
-                            <li>Tree Removals</li>
-                            <li>Stump Grinding</li>
-                            <li>Site Clearences</li>
-                            <li>Wood Art</li>
-                        </ul>
-                    <!-- </div> -->
-                <!-- </div> -->
-            <!-- </div> -->
-        <!-- </div> -->
-        </div>
-
+    <div class="hero-image"> 
+        <!--<div class="jumbotron">
+            <div class="flex-container">
+                <ul class="hero-text">  
+                    <li>Tree Assessments</li>
+                    <li>Tree Pruning</li>
+                    <li>Tree Planting</li>
+                    <li>Tree Removals</li>
+                    <li>Stump Grinding</li>
+                    <li>Site Clearences</li>
+                    <li>Wood Art</li>             
+                </ul>
+            </div>
+        </div>-->
     </div>       
 </header>
 
@@ -96,11 +87,11 @@
     </div>
 
     <div class="container text-center">
-        <!--  2. https://getbootstrap.com/docs/4.0/layout/grid/#horizontal-alignment -->
-        <div class="row">
-            <div class="col-6">
-                <!-- 1. https://getbootstrap.com/docs/4.0/utilities/embed/ -->
-                <iframe class="" src="https://www.youtube.com/embed/BDlqsvM8jFM"></iframe>
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BDlqsvM8jFM" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </div>
@@ -230,77 +221,61 @@
                     </div>
 
                     <div class="modal-name">
-                        <div class="form-group">
-                            <input type="text" name="name" class="form-control" placeholder="Name">
-                        </div>    
+                        <div class="form-group"></div>
+                        <input type="text" name="name" class="form-control" placeholder="Name">
                     </div>
                     <div class="modal-email">
-                        <div class="form-group">
-                            <input type="email" name="email" class="form-control" placeholder="Email">
-                        </div>    
+                        <div class="form-group"></div>
+                        <input type="email" name="email" class="form-control" placeholder="Email">
                     </div>
                     <div class="modal-number">
-                        <div class="form-group">
-                            <input type="number" name="number" class="form-control" placeholder="Contact Number">
-                        </div>                            
+                        <div class="form-group"></div>
+                        <input type="number" name="number" class="form-control" placeholder="Contact Number">
                     </div>
                     <div class="modal-message">
-                        <div class="form-group">
-                            <input type="text" name="message" class="form-control" placeholder="Subject">
-                        </div>                            
+                        <div class="form-group"></div>
+                        <input type="text" name="message" class="form-control" placeholder="Subject">
                     </div>
-                    <div class="modal-footer">
+                    <div class="modal-footer mx-auto">
                         <button type="submit" class="btn btn-success">Submit</button>
+                     </div>
+                
+                    <!---   Footer in the modal         -->
+
+                    <div class="container modal-footer">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="connect">Connect with us!</h3>
+                    
+                                    <p> It would be awesome if you let us know what you think. </p>
+                                        <a href="https://www.facebook.com/Tree-Solutions-ltd-295851323959198/" target="_blank">
+                                        <i class="fa fa-facebook-square"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com" target="_blank">
+                                        <i class="fa fa-instagram"></i>
+                                        </a>
+
+                                        <a href="mailto:donal@treesolutions.ie" target="_blank">
+                                        <i class="fa fa-envelope-square"></i>
+                                        </a>
+
+                                        <a href="tel:+353874103088">
+                                        <i class="fa fa-phone"></i>
+                                        </a>
+
+                                <hr class="hori-line">            
+                                <p class="text-center">Town Gate, Wooodside Rd. Sandyford, Dublin 18. Ireland <a>+353874103088</a></p>
+                                <p class="text-center">© 2020 by TreeSolutions.ie </p>
+                            </div>
+                        </div>
                     </div>
+                </div>
             </div>
+        </div>
 
             <!-- 4. Change "footer" into a "div" ==> semantic (in the modal) -->
             <!-- header | section | section | footer | modal -->
             <!-- https://stackoverflow.com/questions/7549561/section-vs-article-html5 -->
-            <footer>
-                <div class="container pre-footer">
-                    <div class="row">
-                        <div class="col-12">
-
-                            <h3 class="connect">Connect with us!</h3>
-                            
-                            <p> It would be awesome if you let us know what you think. </p>
-
-                                <a href="https://www.facebook.com/Tree-Solutions-ltd-295851323959198/" target="_blank">
-                                <i class="fa fa-facebook-square"></i>
-                                </a>
-                                <a href="https://www.instagram.com" target="_blank">
-                                <i class="fa fa-instagram"></i>
-                                </a>
-
-                                <a href="mailto:donal@treesolutions.ie" target="_blank">
-                                <i class="fa fa-envelope-square"></i>
-                                </a>
-
-                                <a href="tel:+353874103088">
-                                <i class="fa fa-phone"></i>
-                                </a>
-
-                        </div>
-                    </div>
-                </div>
-
-                <hr class="hori-line">
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">             
-
-                            <p class="text-center">Town Gate, Wooodside Rd. Sandyford, Dublin 18. Ireland <a>+353874103088</a></p>
-
-                            <p class="text-center">© 2020 by TreeSolutions.ie </p>
-
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </div>
-    </div>
 
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>

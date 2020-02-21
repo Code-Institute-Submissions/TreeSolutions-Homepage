@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:100,200,300,400,500,600,700;|Ubuntu:100,200,300,400,500,600,700;&display=swap');
 
-.foo {
-    position: absolute;
-    top: 10%;
-    left: 10%;
-}
 
 html {
     height: 100%;
@@ -63,28 +58,25 @@ body {
     border-bottom: 10px solid #383838
 }
 
-/* .jumbotron .hero-text li { */
+/* .jumbotron .hero-text li {
 .hero-text li {
     font-family: 'Rubik', sans-serif;
     font-size: 2rem;
     color: #fff;
-    list-style: none;
+    list-style: none;                        was having problems position this so have chose to leave it out
     text-align: vertical;
     letter-spacing: 3px;
     line-height:3rem;
     background: rgba(0, 0, 0, 0.4);
 }
+
 .jumbotron {
-    width: 50%;
-}
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 50%
+}  */
 
-
- /*-----------------------------------Contact Form ------------------------- */
-
- div .custom-modal {
-     padding: 40px;
-     width: 400px;
- }
 
 /*----------------------------------- Welcome ------------------------- */
 
@@ -103,7 +95,7 @@ article {
     margin: 2em;
     margin-bottom: 50px;
 }
-article .welcome {
+.welcome {
     margin: 30px;
 }
 
@@ -111,13 +103,6 @@ p .pro {
     font-style: italic;
 }
 
-/* iframe {
-    width: 60vw;
-    height: 60vh;
-    align-self: center;
-    justify-items: center;
-    padding-bottom: 25px;
-} */
 /*----------------------------------- Main Page Sections------------------------- */
 
 .section1 .who-text {
@@ -151,16 +136,13 @@ p .pro {
 /* -------------------- ---------------------------------------------foooter     */
 
 footer {
-    background-color:/* #BCEE68*/#383838;
+    background-color: #383838;
     padding-top: 30px;
     margin-bottom: 0;
-
     font-size: 1rem;
     font-family: 'Rubik', sans-serif;
     color: #fff;
     text-align: center;
-
-    /*height: 15rem;*/
 }
 
 .pre-footer {
@@ -189,13 +171,61 @@ footer .hori-line {
     background-color: #fff;
     font-size: 5px; /*        */
 }
+
+     /* Footer in modal styled the same but when i enter the modal-footer class into the rest something is conflicting, couldnt find error */
+.modal-dialog{
+    background-image: url("/assets/backgrounds/Sunshine-leaves.jpg")no-repeat;
+    background-size: cover;
+    background-position:center;
+
+    margin: 10px;
+    padding: 10px;
+}
+
+.modal-footer {
+    background-color: #383838;
+    padding-top: 30px;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.modal-footer {
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+.modal-footer .fa-facebook-square {
+    color: #1E90FF;
+    font-size: 2.5em;
+}
+.modal-footer .fa-instagram {
+    color: #fff;
+    font-size: 2.5em;
+}
+.modal-footer .fa-envelope-square {
+    color: #FF0000;
+    font-size: 2.5em;
+}
+.modal-footer .fa-phone {
+    color: #BCEE68;
+    font-size: 2.5em;
+}
+
+.modal-footer .hori-line {
+    background-color: #fff;
+    font-size: 5px; /*        */
+}
+
 /*-------------------------------------  Text all pages  --------------------- */
 
 section .section-text {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
-    /*font-size: 16px;*/
+    font-size: 1em;
     letter-spacing: 2px;
     text-align: center;
 }
@@ -214,7 +244,7 @@ section #about-main-slideshow {
     justify-content: center;
 }
 .background-image-about {
-    background: url("/assets/backgrounds/leaf-wrap1st.jpg")no-repeat;
+    background-image: url("/assets/backgrounds/leaf-wrap1st.jpg")no-repeat;
     background-size: cover;
     padding-top: 2em;
     background-position: 50% 50%;
