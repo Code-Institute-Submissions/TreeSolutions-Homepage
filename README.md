@@ -1,9 +1,9 @@
-# ** TreeSolutions Homepage **
+#  TreeSolutions Homepage 
 
 ![TreeSolutionsLogo](./assets/images/logoedit2.png)
 
 
-## ** This is a business homepage for TreeSolutions(.)ie **
+##  This is a business homepage for TreeSolutions(.)ie 
 
 
 Tree Soltuions is an Industry leading company based in the hilly suburbs of Dublin City,
@@ -19,9 +19,9 @@ Fully equiped for any job with an array of different machinery to
 make sure budgets and schudules are met.           
 
 
-**https://rootcanopy.github.io/TreeSolutions-Homepage/index.html**
+*https://rootcanopy.github.io/TreeSolutions-Homepage/index.html*
 
-## ** UX **
+##  UX 
 
 This sites target demographic are oridinary people and business' in need of a professional opinion and 
 a professional reliable service. This page can help them achieve this by providing efficient usability/interactivity,
@@ -32,12 +32,11 @@ Because Tree Solutions vehicles are on the roads so much, the mobile first displ
 aspect because its going to be in public that most people see the company advertised and 
 the quickest thing for anyone to do is google the web address that is seen.
     
-[![TreeSolutions WF](wireframes/Milestone1.png)]
-[![TreeSolutions WF](wireframes/MilestoneContact.png)]
-[![TreeSolutions WF](wireframes/landing page.png)]
-[![TreeSolutions WF](wireframes/services.png)]
+![TreeSolutions WF](wireframes/Milestone1.png)
+![TreeSolutions WF](wireframes/MilestoneContact.png)
+![TreeSolutions WF](wireframes/services.png)
 
-## ** User Stories **
+##  User Stories 
 
 ```> * As a customer or potential customer, I want to see what professional previous background TreeSolutions has.```
 
@@ -47,9 +46,8 @@ the quickest thing for anyone to do is google the web address that is seen.
 
 ```> * As a potential customer, I want to have a posibility to contact Anna via phone, email or contact form.```
 
-## ** Features **
+##  Features 
 
-(you should go over the different parts of your project, and describe each in a sentence or so.)
 
 When beginning this project I had so cool things in my head that I wanted to try out but as I started 
 coding I decided to keep it simple and basic because I felt i was wasting too much time trying to implement 
@@ -69,21 +67,8 @@ by this company.
 I really enjoyed implementing the contact modal and it actually turned out better than I thought. Theres still a little bit of 
 coding to do on it.
         
-/*Throughout the entie website, I didnt take much code from elsewhere. The Bootstrap Navbar 
-https://getbootstrap.com/docs/4.0/components/navbar/ and the burger icon I replaced as a tree from Font-Awesome, 
-I thought that was a cool feature and I hope user realise this is the dropdown menu :).
-I chose to keep it as simple as I could without the bussle of 
-features that are just there for show making the build more complex than it needs to be.
-
-The opening hero image I found on https://www.pexels.com/.
-
-The background images on all the pages I got on google images and chopped and flipped it to make it look different.
-
-Navbar suppresses 'burger icon' on mobile and tablet and also follows the scroll downwards.
-
-The features will be on the homepage, I want to implement a slideshow gallary of previous work/ equipment. */
         
-## ** Existing Features **
+##  Existing Features 
 
 Throughout the entie website, I didnt take much code from elsewhere. The Bootstrap Navbar 
 https://getbootstrap.com/docs/4.0/components/navbar/ and the burger icon I replaced as a tree from Font-Awesome, 
@@ -99,9 +84,18 @@ The background images on all the pages I got on google images and chopped and fl
 
 Navbar suppresses 'burger icon' on mobile and tablet and also follows the scroll downwards.
 
+### Features left to implement
+
+The Navbar, id like to change so it drops down over the content and not push it. 
+
+Another header under the navbar saying "For Emergencys and Quotes contact: phone - linked to call.
+
+A gallery page, there is so, so many photos to choose from, I choose photos based of pixel size.
+The page also needs to be hosted with Hootsuite so that its easier to update one and all with photos and news.
 
 
-## ** Technologies Used **
+
+##  Technologies Used 
 
 * I used Bootstrap for most of everything, but I dont think i'll be using it again in future projects, not unless I 
 I feel theres something I really need from it. For responsiveness I'd like to concentrate on CSS Grid and/or Flexbox.
@@ -120,35 +114,45 @@ I had issues with the release key and it turns out its actually a bug in the Bio
 
 <hr>
 
-## ** Testing **g
+##  Testing 
 
-        <p>
-            This will have to be added to-do list. 
-        </p>
-    <hr>
+I used my phone for testing, thats the first place I would test the newly implemented code.
 
-    <h2>Deployment</h2>
+![TreeSolutions WF](wireframes/screenshot1.jpg)
+![TreeSolutions WF](wireframes/screenshot2.jpg)
+![TreeSolutions WF](wireframes/Screenshot3.jpg)
+![TreeSolutions WF](wireframes/Screenshot4.jpg)
+![TreeSolutions WF](wireframes/Screenshot5.jpg)
+![TreeSolutions WF](wireframes/Screenshot6.jpg)
 
-        <p>
-            This will also be added to to-do.
-        </p>
-    <hr>
+## Deployment
 
-    <h2>Credits</h2>
+When I first deployed the project via Github the images werent loading so that required 
+changes to the file paths. I do belive there is probably some centering left to do on the carousels.
 
-    <h3>Contents</h3>
-        <ul>
-            <li>Donal for Company Info</li>
-        </ul>
-    <hr>
+## Media 
 
-    <h3>Media</h3>
+All the media is original company content. It came from either my phone or the files I was given 
+by the company owner. 
 
-        <p>
-            ALl media is original content taken from the companies google photos.
-        </p>
 
-    <h3>Acknowledgements</h3>
+## Acknowledgements
+
+* The tutor tab and the awesome people who challenge me.
+
+* Xavier for helping.
+
+* Kevin for helping.
+
+* The folks in fulltime2001
+
+* Donal for allowing me to build this project for his company, I'm looking forward to continuing after the course.
+
+* Spotify - for keeping me sane.
+
+* Giphy.com for helping me express myself 
+
+
 
 
 
