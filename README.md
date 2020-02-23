@@ -1,9 +1,9 @@
-#**TreeSolutions Homepage**
+# ** TreeSolutions Homepage **
 
-[![TreeSolutionsLogo](./assets/images/logoedit2.png)]
+![TreeSolutionsLogo](./assets/images/logoedit2.png)
 
 
-##**This is a business homepage for TreeSolutions(.)ie**
+## ** This is a business homepage for TreeSolutions(.)ie **
 
 
 Tree Soltuions is an Industry leading company based in the hilly suburbs of Dublin City,
@@ -21,7 +21,7 @@ make sure budgets and schudules are met.
 
 **https://rootcanopy.github.io/TreeSolutions-Homepage/index.html**
 
-##**UX**
+## ** UX **
 
 This sites target demographic are oridinary people and business' in need of a professional opinion and 
 a professional reliable service. This page can help them achieve this by providing efficient usability/interactivity,
@@ -37,17 +37,17 @@ the quickest thing for anyone to do is google the web address that is seen.
 [![TreeSolutions WF](wireframes/landing page.png)]
 [![TreeSolutions WF](wireframes/services.png)]
 
-##**User Stories**
+## ** User Stories **
 
-```>*As a customer or potential customer, I want to see what professional previous background TreeSolutions has.```
+```> * As a customer or potential customer, I want to see what professional previous background TreeSolutions has.```
 
-```>*As a potential customer, I want to learn who TreeSolutions are and what skills and competencies she has before working on my trees.```
+```> * As a potential customer, I want to learn who TreeSolutions are and what skills and competencies she has before working on my trees.```
 
-```>*As a potential customer, I want to see what experience and knowledge TreeSolutions has.```
+```> * As a potential customer, I want to see what experience and knowledge TreeSolutions has.```
 
-```>*As a potential customer, I want to have a posibility to contact Anna via phone, email or contact form.```
+```> * As a potential customer, I want to have a posibility to contact Anna via phone, email or contact form.```
 
-##**Features**
+## ** Features **
 
 (you should go over the different parts of your project, and describe each in a sentence or so.)
 
@@ -83,34 +83,44 @@ Navbar suppresses 'burger icon' on mobile and tablet and also follows the scroll
 
 The features will be on the homepage, I want to implement a slideshow gallary of previous work/ equipment. */
         
-##**Existing Features
+## ** Existing Features **
 
-            <li> exam. Feature 1 - allows users X to achieve Y, by having them fill out Z</li>
-            <li>...</li>
-        </ul>
+Throughout the entie website, I didnt take much code from elsewhere. The Bootstrap Navbar 
+https://getbootstrap.com/docs/4.0/components/navbar/ and the burger icon I replaced as a tree from Font-Awesome, 
+I thought that was a cool feature and I hope users realise this is the dropdown menu :).
+I chose to keep it as simple as I could without the bussle of 
+features that are just there for show, making the build more complex than it needs to be.
 
-        <p> 
-            example: For some/all of your features, you may choose to reference the specific project files that implement them,
-            although this is entirely optional.
+The modal and contact form I got here, https://www.youtube.com/watch?v=xRDk5CcSp0M.
 
-            In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-        </p>
-    <hr>
+The opening hero image I found on https://www.pexels.com/.
 
-    <h2>Technologies Used</h2>
+The background images on all the pages I got on google images and chopped and flipped it to make it look different.
 
-        <p>
-            <ul>
-                <li>Bootstrap was used for its mobile first application and efficiency for embedded styles. </li>
-                <li>Font Awesome was used for some Icons for style and view</li>
-                <li>Adobe Illustrator was used to create/edit the company logo for coloring as the orginal
-                logo recieved didnt meet the style needs.
-                <li>I plan on using EdrawMax for wireframe as having difficulty installing Balsamiq on linux with wine</li>
-            </ul> 
-        </p>
-    <hr>
+Navbar suppresses 'burger icon' on mobile and tablet and also follows the scroll downwards.
 
-    <h2>Testing</h2>
+
+
+## ** Technologies Used **
+
+* I used Bootstrap for most of everything, but I dont think i'll be using it again in future projects, not unless I 
+I feel theres something I really need from it. For responsiveness I'd like to concentrate on CSS Grid and/or Flexbox.
+
+* I used GIMP on linux to edit the photos and to cut the logo, flip the backgrounds images and to scale the images for the 
+carousels, which I learned its better to use images that are auto the same sizes instead of cropping and scaling down the pixels.
+
+* Pexel.com was used for the Hero image. 
+
+* Figma was used for the wireframes and for the next project i hope Linux 20. is released so I can use wine and balsamiq,
+I had issues with the release key and it turns out its actually a bug in the Bionic Beaver Repo. This lost me 2 days.
+
+* Font-awesome was used for the icons on the footer and also the tree icon in the navbar.
+
+* StackOverflow.com was used for troubleshooting alongside intercom on the CodeInstitute website.
+
+<hr>
+
+## ** Testing **g
 
         <p>
             This will have to be added to-do list. 
